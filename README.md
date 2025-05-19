@@ -42,7 +42,7 @@ The project was originally built for practice and demonstration purposes.
 
 ---
 
-## 🧾 Project Overview (Arabic + English)
+##  Project Overview (Arabic + English)
 
 ###  المقدمة – Introduction
 
