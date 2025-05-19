@@ -10,12 +10,12 @@ The project was originally built for practice and demonstration purposes.
 
 ---
 
-## 🔗 Live Demo  
+##  Live Demo  
 [Open the Control Panel](https://wael-a-alghamdi.github.io/Industrial-robot-arm/industrial_robot_arm_project_1.html)
 
 ---
 
-## 🔧 Tech Used  
+##  Tech Used  
 - HTML  
 - CSS  
 - PHP  
@@ -23,7 +23,7 @@ The project was originally built for practice and demonstration purposes.
 
 ---
 
-## ⚠️ Notes  
+##  Notes  
 - Fully static front-end — no JS frameworks.  
 - PHP handles form submissions and writes to the database.  
 - The robot has 6 motors, each controlled via a slider (0 to 180 degrees).  
@@ -33,7 +33,7 @@ The project was originally built for practice and demonstration purposes.
 
 ---
 
-## 📁 Project Files  
+##  Project Files  
 - `industrial_robot_arm_project_1.html` – Control interface  
 - `connect.php` – PHP backend for form processing  
 - `industrial_robot_arm__project_1_database.sql` – SQL dump of the database  
@@ -44,7 +44,7 @@ The project was originally built for practice and demonstration purposes.
 
 ## 🧾 Project Overview (Arabic + English)
 
-### 📌 المقدمة – Introduction
+###  المقدمة – Introduction
 
 في هذا المشروع قمت بإنشاء صفحة تحكم (HTML) لذراع روبوت صناعي مكون من 6 محركات، وقاعدة بيانات لتخزين القيم، وربطت بينهم باستخدام صفحة (PHP).  
 In this project, I created an HTML page to control a robot arm, created a database, and linked them using a PHP page.
