@@ -2,7 +2,7 @@
 
 This is a simple IoT project to control a 6-motor industrial robot arm using a web-based interface. The system includes:
 
-- A front-end control panel built in HTML and CSS  
+- A front-end control panel built in HTML and CSS 
 - A PHP script to handle database communication  
 - A MySQL database to store motor positions and robot status 
 
