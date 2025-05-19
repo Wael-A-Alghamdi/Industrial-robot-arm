@@ -1,29 +1,36 @@
-# Industrial Robot Arm Project
+## https://s0oos.github.io/Industrial-robot-arm-internet-of-things-project-1/industrial_robot_arm_project_1.html :(html)هذا رابط صفحة ال 
+* # مقدمة - Introduction
 
-This is a basic front-end + backend project to control a robot arm via the web. Built using HTML, PHP, and MySQL. The project includes a database with engine values and robot run state.
+**(database) للتحكم في ذراع الروبوت وانشأت (html)في هذا المشروع قمت بانشاء صفحة**
 
----
+**(php) وقمت بربط الداتابيس بصفحة التحكم عن طريق صفحة**
 
-🔧 Tech Used  
-HTML  
-CSS  
-PHP  
-MySQL  
+**In this project, I created an (html) page to control the robot arm and created a (database) and linked the databases to the control page via a (php) page**
 
----
+## 1.(html) انشاء صفحة - Create (html) page
 
-⚠️ Notes  
-- The control panel supports 6 motors using sliders (0–180 degrees).  
-- PHP handles data submission and writes to the database.  
-- `connect.php` connects the interface to the database.  
-- Database has 2 tables: `engines` (for motor positions) and `run` (for robot on/off status).  
-- Background image is loaded locally (make sure `html_background_image.jpg` is in the correct folder).  
-- To run this project locally, you’ll need XAMPP or similar (Apache + MySQL).
+**مكون من ستة محركات و زر حفظ و زر تشغيل و زر ايقاف (html) في البداية قمت بإنشاء صفحة**
 
----
+**لاعطاء شكل جميل للصفحة وتنظيمها(css) واستخدمت**
 
-Files Overview  
-- `industrial_robot_arm_project_1.html` – Web control panel  
-- `connect.php` – Server-side logic to save input to DB  
-- `industrial_robot_arm__project_1_database.sql` – SQL dump to create tables and sample data  
-- `html_background_image.jpg` – Background for the control page  
+**In the beginning, you create a page (html) consisting of six engines, a save button, a start button, and a stop button and I used (css) to give a beautiful look to the page and organize**
+
+## 2.(database) انشاء قاعدة بيانات - Create a (database)
+
+* **(run) و (engines) قمت بانشاء قاعدة بيانات مكونة من جدولين**
+
+* **((id)primary key)مقسم الى سبعة اعمدة ستة للمحركات و واحد ك (engines)**
+
+* **((id)primary key)مقسم ثلاثة اعمدة اثنان للتشغيل و الايقاف و واحد ك(run)**
+
+* **I created a database consisting of two tables (run) and (engines).**
+
+* **(engines) Divided into seven columns, six for engines and one ((id)primary key)**
+
+* **(run) Divided into three columns, two for on and off, and one for ((id)primary key)**
+
+## 3.(database)وقاعدة البيانات (html) الربط بين صفحة - Linking the html page to the database
+
+**(database)وقاعدة البيانات (html) للربط بين صفحة (Connection) وكتابة كود ال (php) الربط باستخدام صفحة** 
+
+**Linking using the (php) page and writing the (Connection) code to connect the (html) page and (database)**
