@@ -51,7 +51,7 @@ In this project, I created an HTML page to control a robot arm, created a databa
 
 ---
 
-### 1️⃣ إنشاء صفحة HTML – Create HTML Page
+### 1. إنشاء صفحة HTML – Create HTML Page
 
 - الصفحة تتكون من 6 منزلقات (Sliders) للتحكم في كل محرك من 0 إلى 180 درجة  
 - تحتوي على 3 أزرار: حفظ – تشغيل – إيقاف  
@@ -60,7 +60,7 @@ The HTML page includes six motor controls, a save button, a run button, and a st
 
 ---
 
-### 2️⃣ إنشاء قاعدة البيانات – Create the Database
+### 2. إنشاء قاعدة البيانات – Create the Database
 
 تم إنشاء قاعدة بيانات مكونة من جدولين:
 
@@ -72,7 +72,7 @@ The database has two tables:
 
 ---
 
-### 3️⃣ الربط بين HTML وقاعدة البيانات – Connecting HTML to the Database
+### 3. الربط بين HTML وقاعدة البيانات – Connecting HTML to the Database
 
 - تم استخدام `connect.php` لكتابة كود الاتصال وقبول البيانات من الصفحة  
 - عند الضغط على زر حفظ أو تشغيل أو إيقاف، يتم إرسال القيم إلى قاعدة البيانات مباشرة  
