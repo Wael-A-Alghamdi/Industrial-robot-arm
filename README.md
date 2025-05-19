@@ -11,7 +11,7 @@ The project was originally built for practice and demonstration purposes.
 ---
 
 ## 🔗 Live Demo  
-[View the HTML control page here](https://s0oos.github.io/Industrial-robot-arm-internet-of-things-project-1/industrial_robot_arm_project_1.html)
+[View the HTML control page here]([https://s0oos.github.io/Industrial-robot-arm-internet-of-things-project-1/industrial_robot_arm_project_1.html](https://wael-a-alghamdi.github.io/Industrial-robot-arm/industrial_robot_arm_project_1.html))
 
 ---
 
